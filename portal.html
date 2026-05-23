@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal del Alumno | Investing Tesis & Cursos</title>
+  <link rel="stylesheet" href="portal.css" />
+</head>
+<body class="login-body">
+  <main class="login-shell">
+    <section class="login-brand">
+      <img src="public/logo.svg" alt="Investing Tesis & Cursos" />
+      <p class="eyebrow">Portal académico</p>
+      <h1>Seguimiento claro del avance de tu tesis.</h1>
+      <p>Ingresa para revisar etapas, observaciones, entregables, archivos y próximos compromisos.</p>
+      <div class="mini-grid">
+        <span>Avance por etapas</span>
+        <span>Observaciones</span>
+        <span>Entregables</span>
+        <span>Pagos</span>
+      </div>
+    </section>
+
+    <section class="login-card">
+      <div class="login-logo">
+        <img src="public/logo.svg" alt="Logo" />
+        <div><strong>Investing</strong><span>Tesis & Cursos</span></div>
+      </div>
+      <h2>Ingreso de alumnos</h2>
+      <p>Versión demo del portal. Para probar, presiona “Ingresar al panel”.</p>
+      <form onsubmit="event.preventDefault(); window.location.href='dashboard.html';">
+        <label>Correo electrónico</label>
+        <input type="email" placeholder="alumno@correo.com" />
+        <label>Contraseña</label>
+        <input type="password" placeholder="********" />
+        <button type="submit">Ingresar al panel</button>
+      </form>
+      <a class="back-link" href="index.html">Volver a la página principal</a>
+    </section>
+  </main>
+</body>
+</html>
