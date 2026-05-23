@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel del Alumno | Investing Tesis & Cursos</title>
+  <link rel="stylesheet" href="portal.css" />
+</head>
+<body class="dashboard-body">
+  <aside class="sidebar">
+    <div class="side-brand"><img src="public/logo.svg" alt="Logo" /><div><strong>Investing</strong><span>Tesis & Cursos</span></div></div>
+    <nav>
+      <a class="active" href="#resumen">Resumen</a>
+      <a href="#avance">Avance</a>
+      <a href="#entregables">Entregables</a>
+      <a href="#observaciones">Observaciones</a>
+      <a href="#archivos">Archivos</a>
+      <a href="#pagos">Pagos</a>
+      <a href="index.html">Web principal</a>
+    </nav>
+  </aside>
+
+  <main class="dashboard">
+    <header class="dash-header">
+      <div><p class="eyebrow">Panel del alumno</p><h1>Hola, Ana. Este es el avance de tu tesis.</h1></div>
+      <a class="logout" href="portal.html">Cerrar sesión</a>
+    </header>
+
+    <section id="resumen" class="summary-grid">
+      <article class="summary-card blue"><span>Avance general</span><strong>65%</strong><p>Capítulo III en revisión</p></article>
+      <article class="summary-card"><span>Próximo entregable</span><strong>Matriz corregida</strong><p>Fecha objetivo: 28 de mayo</p></article>
+      <article class="summary-card"><span>Observaciones pendientes</span><strong>3</strong><p>Prioridad media</p></article>
+      <article class="summary-card"><span>Estado de pago</span><strong>Al día</strong><p>Siguiente cuota: junio</p></article>
+    </section>
+
+    <section id="avance" class="panel">
+      <div class="panel-title"><h2>Avance por etapas</h2><p>Seguimiento visual de las fases principales del proyecto.</p></div>
+      <div class="progress-list">
+        <div><span>Tema aprobado</span><strong>100%</strong><progress value="100" max="100"></progress></div>
+        <div><span>Matriz de consistencia</span><strong>100%</strong><progress value="100" max="100"></progress></div>
+        <div><span>Marco teórico</span><strong>90%</strong><progress value="90" max="100"></progress></div>
+        <div><span>Metodología</span><strong>70%</strong><progress value="70" max="100"></progress></div>
+        <div><span>Resultados</span><strong>40%</strong><progress value="40" max="100"></progress></div>
+        <div><span>Sustentación</span><strong>0%</strong><progress value="0" max="100"></progress></div>
+      </div>
+    </section>
+
+    <section id="entregables" class="panel">
+      <div class="panel-title"><h2>Entregables recientes</h2><p>Documentos y tareas comprometidas por fecha.</p></div>
+      <table>
+        <thead><tr><th>Entregable</th><th>Fecha</th><th>Estado</th><th>Responsable</th></tr></thead>
+        <tbody>
+          <tr><td>Corrección de matriz</td><td>28/05</td><td><span class="badge process">En proceso</span></td><td>Asesor</td></tr>
+          <tr><td>Capítulo II revisado</td><td>20/05</td><td><span class="badge ok">Aprobado</span></td><td>Alumno</td></tr>
+          <tr><td>Instrumento validado</td><td>15/05</td><td><span class="badge ok">Aprobado</span></td><td>Asesor</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="observaciones" class="panel">
+      <div class="panel-title"><h2>Observaciones pendientes</h2><p>Registro de puntos que deben corregirse o validar.</p></div>
+      <div class="notes">
+        <article><strong>Capítulo III</strong><p>Ajustar redacción del diseño metodológico y justificar la muestra.</p><span>Estado: pendiente</span></article>
+        <article><strong>Matriz de consistencia</strong><p>Precisar relación entre variable independiente, dimensiones e indicadores.</p><span>Estado: en revisión</span></article>
+        <article><strong>Formato universitario</strong><p>Normalizar títulos, numeración de tablas y estilo de referencias.</p><span>Estado: pendiente</span></article>
+      </div>
+    </section>
+
+    <section id="archivos" class="panel cards-panel">
+      <div class="panel-title"><h2>Archivos</h2><p>Espacio referencial para documentos del proyecto.</p></div>
+      <div class="file-grid">
+        <div>Capitulo_III_revision.docx</div>
+        <div>Matriz_consistencia_v2.xlsx</div>
+        <div>Instrumento_validado.pdf</div>
+      </div>
+    </section>
+
+    <section id="pagos" class="panel">
+      <div class="panel-title"><h2>Resumen de pagos</h2><p>Vista referencial para control interno y comunicación transparente.</p></div>
+      <div class="payment-box"><strong>Estado: al día</strong><span>Monto pagado: S/ 1,500</span><span>Saldo pendiente: S/ 3,000</span><span>Próxima fecha: 05/06</span></div>
+    </section>
+  </main>
+</body>
+</html>
