@@ -5,9 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Investing Tesis & Cursos: asesoría académica, cursos, estadística y acompañamiento para egresados de pregrado y maestría." />
     <title>Investing Tesis & Cursos</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="topbar">
+      <a class="brand" href="#inicio">
+        <img src="public/logo.svg" alt="Logo Investing Tesis & Cursos" />
+        <div><strong>Investing</strong><span>Tesis & Cursos</span></div>
+      </a>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#metodo">Método</a>
+        <a href="#confianza">Confianza</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="btn btn-primary" href="#contacto">Diagnóstico</a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="pill">Para egresados de cualquier universidad</p>
+          <h1>Tu tesis deja de ser una carga y se convierte en una ruta clara.</h1>
+          <p class="lead">En <strong>Investing Tesis & Cursos</strong> acompañamos a estudiantes y egresados de pregrado y maestría con metodología, estadística, redacción académica y preparación para sustentación.</p>
+          <p class="slogan">“Invierte hoy en tu futuro académico.”</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#contacto">Quiero iniciar mi ruta</a>
+            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="public/logo.svg" alt="Investing Tesis & Cursos" />
+          <h2>Claridad, confianza y avance académico.</h2>
+          <p>Una experiencia pensada para reducir ansiedad, mostrar progreso y activar la decisión de consulta.</p>
+        </div>
+      </section>
+
+      <section id="servicios" class="section white">
+        <div class="section-title">
+          <p class="pill">Servicios diseñados para avanzar</p>
+          <h2>Una experiencia académica simple, guiada y confiable</h2>
+          <p>La página comunica tranquilidad, claridad y progreso medible.</p>
+        </div>
+        <div class="grid cards-4">
+          <article class="card"><h3>Asesoría integral de tesis</h3><p>Acompañamiento metodológico para tema, matriz, marco teórico, instrumentos, resultados, discusión y sustentación.</p></article>
+          <article class="card"><h3>Estadística y resultados</h3><p>Organización de bases, pruebas estadísticas, tablas, gráficos e interpretación académica.</p></article>
+          <article class="card"><h3>Cursos prácticos</h3><p>Metodología, redacción académica, Excel, Power BI, estadística aplicada y herramientas de investigación.</p></article>
+          <article class="card"><h3>Preparación para sustentación</h3><p>Presentación, guion, simulacro de preguntas y seguridad para exponer ante jurado.</p></article>
+        </div>
+      </section>
+
+      <section id="metodo" class="section">
+        <div class="section-title">
+          <p class="pill">Neuroexperiencia académica</p>
+          <h2>Diseñada para reducir ansiedad y aumentar acción</h2>
+          <p>El estudiante necesita ver progreso, entender qué sigue y sentir que su meta está bajo control.</p>
+        </div>
+        <div class="grid cards-4 steps">
+          <article class="card"><span>1</span><h3>Diagnóstico</h3><p>Revisamos universidad, reglamento, tema, fecha objetivo y nivel de avance.</p></article>
+          <article class="card"><span>2</span><h3>Ruta clara</h3><p>Definimos entregables, cronograma y prioridades.</p></article>
+          <article class="card"><span>3</span><h3>Acompañamiento</h3><p>Trabajamos con sesiones, avances medibles y comunicación ordenada.</p></article>
+          <article class="card"><span>4</span><h3>Validación</h3><p>Revisamos coherencia, observaciones y preparación final.</p></article>
+        </div>
+      </section>
+
+      <section id="confianza" class="section white split">
+        <div>
+          <p class="pill">Confianza antes que presión</p>
+          <h2>Profesional desde el primer clic.</h2>
+          <p>Azul para seguridad académica, blanco para claridad cognitiva y dorado para logro. La marca debe sentirse seria, humana y cercana.</p>
+        </div>
+        <div class="grid cards-2">
+          <article class="card"><h3>Cronograma visible</h3><p>El estudiante y su familia saben qué se entrega y cuándo.</p></article>
+          <article class="card"><h3>Confidencialidad</h3><p>Manejo responsable de archivos e información académica.</p></article>
+          <article class="card"><h3>Especialistas</h3><p>Asesores según carrera, método y necesidad estadística.</p></article>
+          <article class="card"><h3>Comunicación cercana</h3><p>Lenguaje claro y seguimiento por etapas.</p></article>
+        </div>
+      </section>
+
+      <section class="banner">
+        <h2>No necesitas avanzar solo. Necesitas una ruta académica clara y acompañada.</h2>
+        <p>La propuesta transforma la ansiedad en un camino ordenado, medible y profesional.</p>
+      </section>
+
+      <section id="faq" class="section white">
+        <div class="section-title">
+          <p class="pill">Preguntas frecuentes</p>
+          <h2>Respuestas claras para decidir con tranquilidad</h2>
+        </div>
+        <div class="faq">
+          <details open><summary>¿Atienden egresados de cualquier universidad?</summary><p>Sí. Adaptamos la asesoría al reglamento y al nivel de avance del estudiante.</p></details>
+          <details><summary>¿Pueden ayudarme si tengo observaciones?</summary><p>Sí. Priorizamos observaciones y planteamos un plan de levantamiento ordenado.</p></details>
+          <details><summary>¿Pueden explicar la ruta a familiares?</summary><p>Sí. Presentamos entregables y cronograma para generar confianza.</p></details>
+          <details><summary>¿El servicio es solo tesis?</summary><p>No. También incluye cursos, estadística, redacción académica y preparación para sustentación.</p></details>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <p class="pill">Comienza con una ruta clara</p>
+        <h2>Agenda tu diagnóstico académico</h2>
+        <p>Cuéntanos tu carrera, universidad, tema, fecha objetivo y nivel de avance. Te ayudaremos a ordenar el camino.</p>
+        <div class="contact-box">Reemplaza este bloque por el número real de WhatsApp antes del lanzamiento.</div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="public/logo.svg" alt="Logo Investing Tesis & Cursos" />
+      <div><strong>Investing Tesis & Cursos</strong><span>Invierte hoy en tu futuro académico.</span></div>
+      <p>© 2026 Investing Tesis & Cursos.</p>
+    </footer>
   </body>
 </html>
